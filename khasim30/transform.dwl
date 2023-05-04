@@ -1,5 +1,6 @@
 %dw 2.0
 output application/csv
+//here I am converted the given json message into required csv output format by using multiple functions
 import * from dw::core::Arrays
 /*
 1) variable 'keys' will store all the columns for csv
